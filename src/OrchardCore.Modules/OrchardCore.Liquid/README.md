@@ -237,6 +237,12 @@ The following properties are available on the `User` object.
 
 
 #### User Filters
+
+##### user_email filter
+Returns the user's email.
+```liquid
+{{ User | user_email }}
+```
 ##### has_permission filter
 checks if the User has permission clearance, optionally on a resource 
 ```liquid
